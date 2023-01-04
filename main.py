@@ -30,7 +30,7 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.row_index = 4  # Keep a record of the row.
+        self.row_index = 5  # Keep a record of the row.
 
         self.setWindowTitle("To Do")  # Window Title
         self.setWindowIcon(QIcon("icon/icon.png"))  # Window Icon
@@ -44,19 +44,17 @@ class Window(QWidget):
         Box(self.layout, 2)
         Box(self.layout, 3)
         Box(self.layout, 4)
+        Box(self.layout, 5)
 
         self.add_button = QPushButton("Add")
         self.add_button.clicked.connect(self.add)
-        self.layout.addWidget(self.add_button, 6, 1)
+        self.layout.addWidget(self.add_button, 5, 1)
 
     def add(self):
         self.row_index += 1
 
         Box(self.layout, self.row_index)
         self.layout.addWidget(self.add_button, self.row_index + 1, 1)
-
-    def deleat(self):
-        print("deleat")
 
 
 def main():
