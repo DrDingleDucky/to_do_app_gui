@@ -1,7 +1,5 @@
-# PyQt GUI Test
+# To DO App
 
-Playing around with the PyQt library.
-
-This is a basic PyQt sign in window.
+A basic to-do app made with PyQt.
 
 ![window.png](README.assets/window.png)
