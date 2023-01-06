@@ -1,4 +1,4 @@
-# To DO App
+# To Do App
 
 A basic to-do app made with PyQt.
 
