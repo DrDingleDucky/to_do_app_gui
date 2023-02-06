@@ -30,11 +30,11 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.row_index = 5  # Keep a record of the row.
+        self.row_index = 5
 
-        self.setWindowTitle("To Do")  # Window Title
-        self.setWindowIcon(QIcon("icon/icon.png"))  # Window Icon
-        self.setMinimumSize(450, 250)  # The window's smallest possible size.
+        self.setWindowTitle("To Do")
+        self.setWindowIcon(QIcon("icon/icon.png"))
+        self.setMinimumSize(450, 250)
 
         self.layout = QGridLayout()
         self.setLayout(self.layout)
@@ -64,7 +64,7 @@ def main():
 
     window.show()
 
-    sys.exit(app.exec())  # Make sure the programme terminates properly.
+    sys.exit(app.exec())
 
 
 if __name__ == "__main__":
