@@ -1,8 +1,8 @@
 import sys
 
 from PyQt6.QtGui import QIcon
-from PyQt6.QtWidgets import (QApplication, QCheckBox, QGridLayout,
-                             QLineEdit, QPushButton, QWidget)
+from PyQt6.QtWidgets import (
+    QApplication, QCheckBox, QGridLayout, QLineEdit, QPushButton, QWidget)
 
 
 class Box:
