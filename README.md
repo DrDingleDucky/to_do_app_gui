@@ -6,6 +6,10 @@ A basic to-do app made with PyQt.
 
 ## Instructions
 
+### Python Version
+
+This project was developed using Python 3.10.10.
+
 ### Install Dependencies
 
 Install the necessary dependencies.
